@@ -1,0 +1,65 @@
+/*
+* 	960 version - 1.0
+* 	Copyright 2012, MyPassion
+* 	09/29/2012
+*/
+	
+/* ---------------------------------------------------------------------- */
+/*  Custom  960 Grid System
+/* ---------------------------------------------------------------------- */
+	.container{
+		width:1060px;
+		margin:0 auto;
+		clear:both;
+		display:block;
+		position:relative;
+	}
+	h1 { font-size: 24px; }
+	h2 { font-size: 22px; }
+	h3 { font-size: 20px; }
+	h4 { font-size: 18px; }
+	h5 { font-size: 16px; }
+	h6 { font-size: 14px; }
+
+@media only screen and (min-width: 960px) and (max-width: 1060px) {
+	
+	.controller 			{ width:100%; }
+	.container              { width:960px; }
+	
+} 
+
+
+/* ------------------------------------------- */
+/*  Responsive Grid :
+/*
+/*  1. Tablet
+/*  2. Mobile Portrait
+/*  3. Mobile Landscape
+/* ------------------------------------------- */
+ 
+/*------------------------------------------------------------------*/ 
+/*	1) Note: Design for a width of 768 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .controller 			{ width:100%; }
+	.container              { width:768px; margin:0 auto; }
+}
+
+
+/*------------------------------------------------------------------*/ 
+/*	2) Note: Design for a width of 480 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+	.controller 			{ width:100%; }
+	.container              { width:420px; margin:0 auto; }
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) Note: Design for a width of 320 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 479px){
+    .controller 			{ width:100%; }
+	.container              { width:300px; margin:0 auto; }
+}
+
